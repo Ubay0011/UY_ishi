@@ -1,0 +1,151 @@
+.container {
+    max-width: 100%;
+    width: 85%;
+    margin: 0 auto;
+}
+
+* {
+    padding: 0;
+    list-style: none;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.ooz {
+    opacity: 0.8;
+}
+
+.parend {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 20px 40px 20px;
+}
+
+.left-header {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.bgs {
+    border: 2px solid #DEDBDB;
+}
+
+.container2 {
+    max-width: 100%;
+    width: 51%;
+    margin: 0 auto;
+}
+
+.bbs {
+    margin-top: 46px;
+    border: 2px solid #DEDBDB;
+    border-radius: 50px;
+}
+
+.parend1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 66px 65px 65px 65px;
+}
+
+.left-parend {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 7px;
+}
+
+.size {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58.09px;
+    color: #0E0D5D;
+    text-align: center;
+}
+
+.sise {
+    font-size: 24px;
+    color: #F0400F;
+}
+
+
+.i1i1i {
+    text-align: center;
+    padding: 15px;
+    background: #F5F5F5;
+    width: 255px;
+    height: 54px;
+    border-radius: 15px;
+
+    &:active {
+        background-color: white;
+    }
+}
+
+.parend-active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 533px;
+    height: 70px;
+    background: #F5F5F5;
+    border-radius: 20px;
+    margin: 0 auto;
+    gap: 10px;
+}
+
+.ii1 {
+    width: 533px;
+    height: 70px;
+    border-radius: 20px;
+    font-size: 24px;
+    font-family: Inter;
+    font-weight: 500;
+}
+
+.ii12{
+    width: 533px;
+    height: 70px;
+    border-radius: 20px;
+    font-size: 24px;
+    font-family: Inter;
+    font-weight: 500; 
+    background-position: 10px;
+    background-position-x: right;
+    background-repeat: no-repeat;
+    background-image: url(./Eye.png)
+}
+
+.parsd {
+    margin-top: 39px;
+    text-align: center;
+}
+
+.text {
+    margin-top: 18px;
+    opacity: 0.6;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.buston{
+    margin-top: 31px;
+    margin-left: 75%;
+    margin-bottom: 37px;
+    background: #F0400F;
+    width: 202px;
+    height: 67px;
+    border-radius: 20px;
+    &:active{
+        background-color: #F69E86;
+    }
+}
+
+.buttons{
+    color: white;
+}
